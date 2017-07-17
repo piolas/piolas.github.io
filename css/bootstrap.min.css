@@ -1787,6 +1787,7 @@ a.bg-danger:focus {
 }
 
 .page-header {
+    align-content: center;
     padding-bottom: 9px;
     margin: 40px 0 20px;
     border-bottom: 1px solid #1c1e22
@@ -8631,4 +8632,21 @@ a.list-group-item-danger.active:focus {
 .panel-warning .panel-heading,
 .panel-info .panel-heading {
     border-color: #000
+}
+
+.page-content {
+    width: 100%;
+    display: table;
+}
+
+.main-content {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-content-inner {
+    text-align: center;
+    display: inline-block;
+    padding: 1.5em;
 }
